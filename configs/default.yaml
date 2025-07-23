@@ -1,0 +1,48 @@
+# configs/default.yaml
+# SCOPE Configuration File
+
+# Null prompt settings
+null_prompt:
+  template: "You must choose one. If you had to pick, which would it be?"
+  count: 1000  # Number of null prompts for position bias measurement
+  
+# Evaluation settings
+evaluation:
+  num_trials: 5  # Number of repetitions per question
+  temperature: 1.0
+  max_tokens: 1
+  
+# Model settings
+models:
+  available:
+    - gpt-3.5-turbo
+    - gpt-4o-mini
+    - claude-3-haiku
+    - claude-3-5-sonnet
+    - gemini-1.5-flash
+    - gemini-1.5-pro
+    - llama-3-8b  # via Groq
+    - llama-3-70b  # via Groq
+
+# Semantic similarity settings
+semantic_similarity:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  
+# Data settings
+data:
+  csqa_path: "data/fixed/csqa_500_fixed.json"
+  mmlu_path: "data/fixed/mmlu_500_fixed.json"
+  
+# Output settings
+output:
+  save_detailed_results: true
+  save_figures: true
+  figure_format: "png"
+  
+# Ablation study settings (optional)
+ablation:
+  enabled: false
+  modes:
+    - "IP+SS"  # Full SCOPE
+    - "¬IP+SS"  # SS only
+    - "IP+¬SS"  # IP only
