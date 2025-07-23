@@ -18,5 +18,5 @@ The framework consists of two modules:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/WonjunJeong97/SCOPE-repo
-cd scope-repo
+git clone https://github.com/WonjunJeong97/SCOPE
+cd SCOPE
