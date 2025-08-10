@@ -84,6 +84,7 @@ If that runs, you’re ready to reproduce the paper.
 ```bash
 SCOPE/
 ├─ configs/        # per-table/figure experiment configs (YAML)
+├─ figures/        # static images for README/docs (pipeline, schematics)
 ├─ scripts/        # download / train / eval / run_all helpers
 ├─ src/            # core implementation (data, models, utils, train.py, etc.)
 ├─ notebooks/      # demo & reproduction notebooks
