@@ -71,12 +71,21 @@ jupyter lab
 ```
 
 ### 4) Quick smoke test (1–2 min)
-Pick one lightweight config or demo script to ensure everything is wired:
+
+Run the built-in **test mode** to verify your setup end-to-end:
+
 ```bash
-# Example (replace with a real script/config in this repo if it differs)
-bash scripts/eval.sh configs/example_small.yaml
+bash scripts/run_evaluation.sh -t
 ```
-If that runs, you’re ready to reproduce the paper.
+
+Optionally pin dataset/model (same test mode, just more explicit):
+
+```bash
+bash scripts/run_evaluation.sh -t -d csqa -m gpt-3.5-turbo
+```
+
+If it completes without errors, you’re ready to reproduce the paper.  
+> Note: This assumes `.env` is set up and the fixed datasets exist at the paths in `configs/default.yaml`.
 
 ---
 
