@@ -19,7 +19,7 @@ SCOPE mitigates two selection biases in LLM multiple-choice evaluation:
 - **Semantic Bias** — when uncertain, models gravitate to distractors that are semantically close to the answer.
 
 **Modules**
-- **Inverse-Positioning (IP)**: estimates a model’s position preference (via null/neutral prompts) and assigns answers to less-preferred positions to cap “luck” at \( \le 1/n \).
+- **Inverse-Positioning (IP)**: estimates a model’s position preference (via null/neutral prompts) and assigns answers to less-preferred positions to cap “luck” at $` \le 1/n `$.
 - **Semantic-Spread (SS)**: identifies near-miss distractors (semantic neighbors of the answer) and **separates them** spatially to discourage proximity-based guessing.
 
 **Paper**
@@ -120,17 +120,6 @@ You may also cite the code base itself (optional):
 ## Contact
 - **Maintainer**: [Wonjun Jeong / tp04045@gachon.ac.kr]
 - **Questions & issues**: please open a GitHub Issue in this repository.
-
----
-
-## Why this solves the problem (and what changed)
-
-- **Correct arXiv link/badge:** `https://arxiv.org/abs/2507.18182` (no extra brackets inside the URL).  
-- **Closed code fences & sectioning:** every code block and list is properly fenced; headings are separated from code.  
-- **10-minute path:** clone → env → `.env` → smoke test → reproduce.  
-- **Explicit table/figure mapping:** users don’t have to guess which config/notebook regenerates which result.  
-- **Determinism guidance & FAQ:** sets expectations about ±ε differences across hardware.  
-- **Citation ready:** BibTeX included.
 
 ---
 
