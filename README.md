@@ -24,7 +24,7 @@ SCOPE mitigates two selection biases in LLM multiple-choice evaluation:
 
 **Paper**
 - *SCOPE: Stochastic and Counterbiased Option Placement for Evaluating Large Language Models*  
-  Jeong, Wonjun; **Kim, Dongseok**; Whangbo, Taegkeun. arXiv:2507.18182 (2025)
+  Jeong, Wonjun; Kim, Dongseok; Whangbo, Taegkeun. arXiv:2507.18182 (2025)
 
 ---
 
