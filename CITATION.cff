@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SCOPE: Stochastic and Counterbiased Option Placement for Evaluating Large Language Models"
+version: "1.0.0"
+date-released: "2025-07-25"
+repository-code: "https://github.com/WonjunJeong97/SCOPE"
+url: "https://arxiv.org/abs/2507.18182"
+
+authors:
+  - family-names: Jeong
+    given-names: Wonjun
+  - family-names: Kim
+    given-names: Dongseok
+  - family-names: Whangbo
+    given-names: Taegkeun
+
+keywords:
+  - large language models
+  - evaluation
+  - position bias
+  - semantic bias
+  - multiple-choice QA
+  - fairness
+  - reproducibility
+  - benchmark
+
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2507.18182"
+  - type: url
+    value: "https://arxiv.org/abs/2507.18182"
+
+preferred-citation:
+  type: article
+  title: "SCOPE: Stochastic and Counterbiased Option Placement for Evaluating Large Language Models"
+  authors:
+    - family-names: Jeong
+      given-names: Wonjun
+    - family-names: Kim
+      given-names: Dongseok
+    - family-names: Whangbo
+      given-names: Taegkeun
+  journal: "arXiv"
+  year: 2025
+  doi: "10.48550/arXiv.2507.18182"
+  url: "https://arxiv.org/abs/2507.18182"
