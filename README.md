@@ -3,6 +3,10 @@
     <img alt="arXiv: 2507.18182"
          src="https://img.shields.io/badge/arXiv%3A%202507.18182-b31b1b?style=flat-square&logo=arXiv&logoColor=white&labelColor=b31b1b">
   </a>
+  <a href="https://github.com/WonjunJeong97/SCOPE/actions/workflows/ci.yml">
+    <img alt="CI"
+         src="https://img.shields.io/github/actions/workflow/status/WonjunJeong97/SCOPE/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=CI&labelColor=1f2937">
+  </a>
   <img alt="Python 3.10+"
        src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=3776AB">
   <a href="LICENSE">
